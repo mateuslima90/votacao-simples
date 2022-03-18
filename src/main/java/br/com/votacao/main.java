@@ -26,22 +26,14 @@ public class main {
             switch (selectedOption) {
                 case 1: {
                     System.out.println("Votar");
-                    voteService.showAllBrothers();
-                    System.out.println("Digite a sua opção de voto:");
-                    var meuVoto = votar.nextInt();
-                    voteService.votar(String.valueOf(meuVoto));
                     break;
-                    //votar();
                 }
                 case 2: {
                     System.out.println("Resultado");
-                    System.out.println(voteService.showResults());
-                    //resultados();
                     break;
                 }
                 case 5: {
                     System.out.println("Sair");
-                    //encerrar();
                     break;
                 }
                 default: {

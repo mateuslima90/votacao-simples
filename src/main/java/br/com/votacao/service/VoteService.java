@@ -13,10 +13,7 @@ public class VoteService {
     }
 
     public void showAllBrothers() {
-        System.out.println("Paredão desse semana:");
-        System.out.println("1 - Kratos");
-        System.out.println("2 - Gerald");
-        System.out.println("3 - Samanosuke");
+        System.out.println("Mostar os participantes do paredão");
     }
 
     public Map<String, Integer> showResults() {
@@ -24,25 +21,7 @@ public class VoteService {
     }
 
     public void votar(String meuVoto) {
-        switch (meuVoto){
-            case "1": {
-                this.memoryDatabase.votar("Kratos");
-                System.out.println("Voto processado com sucesso para Kratos");
-                break;
-            }
-            case "2": {
-                this.memoryDatabase.votar("Gerald");
-                System.out.println("Voto processado com sucesso para Gerald");
-                break;
-            }
-            case "3": {
-                this.memoryDatabase.votar("Samanosuke");
-                System.out.println("Voto processado com sucesso para Samanosuke");
-                break;
-            }
-            default: {
-                System.out.println("Voto não contabilizado");
-            }
-        }
+        // Já existe o método para votar
+        // pode utilizar this.memoryDatabase.votar("meuVoto");
     }
 }
