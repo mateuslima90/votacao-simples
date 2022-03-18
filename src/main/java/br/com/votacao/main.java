@@ -6,6 +6,16 @@ import java.util.Scanner;
 
 public class main {
 
+    /*
+        - Implementar um sistema de votação, considerando o esqueleto fornecido
+        - Implementar uma validação para o voto
+        - Implementar a porcentagem dos votos para cada pessoa
+        - Implementar o número total de votos (válidos)
+        - Implementar o número total de votos (válidos e inválidos)
+        - Implementar um laço de repetição quando o usuário informar um voto inválido
+        - Desafio extra implementar a opção para cadastrar as pessoas no paredão
+     */
+
     private static void showAllOptions() {
         System.out.println("=============================================");
         System.out.println("Escolha a opção que deseja:");
