@@ -20,7 +20,7 @@ public class MemoryDatabase {
             var qnt_votos = database.get(meuVoto);
             database.replace(meuVoto, ++qnt_votos);
         } else {
-            database.put(meuVoto, 0);
+            database.put(meuVoto, 1);
         }
     }
 
