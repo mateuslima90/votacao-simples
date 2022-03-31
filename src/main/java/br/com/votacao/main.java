@@ -25,7 +25,7 @@ public class main {
         System.out.println("=============================================");
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         VoteService voteService = new VoteService();
         Scanner scanner = new Scanner(System.in);
         Scanner votar = new Scanner(System.in);
